@@ -54,10 +54,6 @@ public class Scraper
         proxy.Init();
         proxy.Scrape(commandLineParser.cliArgs.siteToScrape + commandLineParser.cliArgs.proxyQuery, true);
 
-        //Producer<Long, String> producer = ScraperProducer.createProducer();
-        //ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(ScraperProducer.TOPIC, proxyResponse);
-        //RecordMetadata metadata = producer.send(record).get(); 
-
     }
 
 }

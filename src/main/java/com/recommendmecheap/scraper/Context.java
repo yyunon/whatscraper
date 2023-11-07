@@ -98,9 +98,6 @@ public final class Context {
 		{
 			try {
 				BufferedReader reader = new BufferedReader(new FileReader(proxyCacheFile));
-				//String line = reader.read();
-				//Document result = new Document(lines);
-				//Document result = new Document();
 				reader.close();
 				return null;
 			} catch (Exception e) {
